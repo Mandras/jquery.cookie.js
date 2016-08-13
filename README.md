@@ -1,4 +1,4 @@
-# jquery.cookie.js
+# jquery.url.js
 
 jQuery plugin
 Enable you to manipulate URL parameters
