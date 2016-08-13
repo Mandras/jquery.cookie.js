@@ -55,7 +55,7 @@ $.url("exist", {
 ### Here is a complete example
 
 ```
-if ($.url("exist", { parameter: 'id' });) {
+if ($.url("exist", { parameter: 'id' })) {
 	alert("Parameter `id` exist !");
 }
 else {
