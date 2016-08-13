@@ -6,7 +6,7 @@ Enable you to manipulate URL parameters
 ## METHODS:
 
 ### Get a URL parameter
-_(if no parameter is given, return the URL with new parameters)_
+_(If no parameter is given, return the URL with new parameters)_
 
 ```
 $.url("get", {
