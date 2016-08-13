@@ -1,6 +1,6 @@
-// jQuery plugin v1.0
+// jQuery URL plugin v1.0
 // Enable you to manipulate URL parameters
-// See more: https://github.com/Mandras/jquery.cookie.js
+// See more: https://github.com/Mandras/jquery.url.js
 
 (function($) {
 	$.extend({
