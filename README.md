@@ -1,10 +1,11 @@
 # jquery.cookie.js
 
-jQuery plugin - Enable you to manipulate URL parameters
+jQuery plugin
+Enable you to manipulate URL parameters
 
-METHODS:
+## METHODS:
 
--- Get a URL parameter (if no parameter is given, return the URL with new parameters):
+### Get a URL parameter _(if no parameter is given, return the URL with new parameters)_
 
 $.url("get", {
     parameter: 'id'
@@ -13,7 +14,7 @@ $.url("get", {
 $.url("get");
 
 
--- Set a URL parameter:
+### Set a URL parameter
 
 $.url("set", {
     parameter: 'id',
@@ -21,15 +22,14 @@ $.url("set", {
 });
 
 
--- Delete a URL parameter:
+### Delete a URL parameter
 
 $.url("delete", {
     parameter: 'id'
 });
 
 
--- Reload the page, you can choose with or without URL parameters
-By default, `empty` is set to false
+### Reload the page, you can choose with or without URL parameters _(By default, `empty` is set to false)_
 
 $.url("reload");
 
@@ -38,7 +38,7 @@ $.url("reload", {
 });
 
 
--- Verify if a URL parameter exist, return `true` or `false`:
+### Verify if a URL parameter exist, return `true` or `false`
 
 $.url("exist", {
     parameter: 'id'
