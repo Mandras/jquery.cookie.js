@@ -13,14 +13,14 @@
 
 			if (typeof object === 'undefined') var object = parameters;
 
-			parameters = $.extend(parameters, object);
+			object = $.extend(parameters, object);
 
 			if (typeof method === 'undefined') {
 				console.log("Cookie jQuery plugin: Missing method name");
 				return (false);
 			}
 
-			if (parameters.name == null || parameters.name.length == 0) {
+			if (object.name == null || object.name.length == 0) {
 				console.log("Cookie jQuery plugin: Missing cookie name");
 				return (false);
 			}
